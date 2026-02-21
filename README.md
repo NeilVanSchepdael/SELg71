@@ -10,11 +10,11 @@ Lijst alle teamleden op met hun GitHub gebruikersnaam:
 
 | Name      | GitHub username                         |
 | :-------- | :-------------------------------------- |
-| Neil Van Schepdael | [idontgetit](https://github.com/username) |
-| Thian Tondeur | [GekkeBanaan](https://github.com/username) |
-| Lorenzo De Gols | [lorenzo798](https://github.com/username) |
-| Tibo Dubois | [td0107](https://github.com/username) |
-| Nathan De Gieter | [Pixeling99](https://github.com/username) |
+| Neil Van Schepdael | [idontgetit](https://github.com/idontgetit) |
+| Thian Tondeur | [GekkeBanaan](https://github.com/GekkeBanaan) |
+| Lorenzo De Gols | [lorenzo798](https://github.com/lorenzo798) |
+| Tibo Dubois | [td0107](https://github.com/td0107) |
+| Nathan De Gieter | [Pixeling99](https://github.com/Pixeling99) |
 
 ## Inhoudstafel
 
