@@ -1,1 +1,15 @@
 #Thian Tondeur
+
+#WINDOWS PowerSHell
+  1. Alle scripts uitvoerbaar maken (bypass)
+      Set-ExecutionPolicy Bypass -Scope Process
+
+  #WinGet
+    1. via WInGet geïnstalleerde software tonen
+        winget list 
+    2. Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie
+        winget upgrade --all
+    3. Via de console een package opzoeken
+        winget search vscode (bv naar visual studio code zoeken)
+    4. Een geïnstalleerd pakket verwijderen
+        winget uninstall vscode (bv visual studio code verwijderen)
