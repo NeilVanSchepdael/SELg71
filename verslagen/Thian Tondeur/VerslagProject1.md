@@ -159,7 +159,7 @@ Het makkelijkste deel was het verslag maken in Markdown. Dat ging vlot omdat dat
 #### Tibo:
 /
 #### Nathan:
-/
+In het begin vond ik deze opdracht moeilijk omdat ik veel moest opzoeken. Na alles eens gedaan te hebben werd het iets eenvoudiger en Markdown vond ik gemakkelijk. Toch heb ik nog wat moeite met het onthouden van de commando’s en moet ik daar nog op oefenen.
 
 ## Bronnen
 
@@ -167,3 +167,4 @@ Het makkelijkste deel was het verslag maken in Markdown. Dat ging vlot omdat dat
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7.5
 #### WinGet installeren voor diegene waarbij dit nog niet geïnstalleerd was.
 https://learn.microsoft.com/en-us/windows/package-manager/winget/install
+
