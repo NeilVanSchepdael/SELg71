@@ -157,7 +157,7 @@ Het makkelijkste deel was het verslag maken in Markdown. Dat ging vlot omdat dat
 #### Neil:
 /
 #### Tibo:
-/
+De opdracht was eerst lastig omdat ik onbekend met Winget was. Doordat ik de instructies van Github niet goed genoeg las was het niet makkelijker om de opdracht te voltooien. Ik zal beter Github lezen voor ik met opdracht start.
 #### Nathan:
 In het begin vond ik deze opdracht moeilijk omdat ik veel moest opzoeken. Na alles eens gedaan te hebben werd het iets eenvoudiger en Markdown vond ik gemakkelijk. Toch heb ik nog wat moeite met het onthouden van de commando’s en moet ik daar nog op oefenen.
 
@@ -167,4 +167,5 @@ In het begin vond ik deze opdracht moeilijk omdat ik veel moest opzoeken. Na all
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7.5
 #### WinGet installeren voor diegene waarbij dit nog niet geïnstalleerd was.
 https://learn.microsoft.com/en-us/windows/package-manager/winget/install
+
 
