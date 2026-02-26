@@ -1,5 +1,3 @@
-### *NIET FINAAL*
-
 # Verslag: SELab Opdracht 1
 
 > Naam verslaggever: Thian Tondeur
@@ -28,13 +26,15 @@ A: -e: ID of Naam moet exact matchen. --id: Installeert exact pakket met specifi
 
 ## Evaluatiecriteria
 
- - [ ] Je hebt een package manager voor jouw besturingssysteem geïnstalleerd.
- - [ ] Je hebt een script (PowerShell of Bash, afhankelijk van je besturingssysteem) geschreven en gebruikt om de opgesomde applicaties te installeren.
+ - [x] Je hebt een package manager voor jouw besturingssysteem geïnstalleerd.
+ - [x] Je hebt een script (PowerShell of Bash, afhankelijk van je besturingssysteem) geschreven en gebruikt om de opgesomde applicaties te installeren.
  - [ ] Je toont inzicht in de werking van een package manager en kan deze vlot kan gebruiken om basistaken uit te voeren.
- - [ ] Er is een verslag gemaakt op basis van het template.
+   > WinGet functioneert niet, voor meer details zie probleem 1 en 2.
+ - [x] Er is een verslag gemaakt op basis van het template.
  - [ ] Elk teamlid heeft de eigen cheat sheet aangevuld met nuttige commando's uit deze opdracht.
- - [ ] Je hebt GitHub correct geconfigureerd op je toestel en je hebt de basiscommando's (via CLI) in je vingers.
- - [ ] Er is een correct antwoord gegeven op de vragen die zijn aangeduid met een ❓.
+   > Niet elk teamlid heeft nuttige commando's gevonden voor hun cheatsheet.
+ - [x] Je hebt GitHub correct geconfigureerd op je toestel en je hebt de basiscommando's (via CLI) in je vingers.
+ - [x] Er is een correct antwoord gegeven op de vragen die zijn aangeduid met een ❓.
 
 ## Problemen en oplossingen
 
@@ -56,21 +56,114 @@ Do you agree to all the source agreements terms?
 Ik kan geen input geven na de laatse regel, Geen "yes", geen "Y", geen Enter.
 Hierdoor kan ik git niet installeren via WinGet.
 
-## Voorbereiding demo
+### Probleem 2 - kan het installatiescript niet uitvoeren.
 
-Beschrijf hier hoe je elk evaluatiecriterium zal demonstreren. Geef ook aan welke bestanden, commando's, enz. je zal gebruiken tijdens de demo.
+#### Input:
+```
+Write-Host "Installatie algemene applicaties" -ForegroundColor Cyan
+
+winget install -e --id Git.Git
+winget install -e --id Mozilla.Firefox
+winget install -e --id Adobe.Acrobat.Reader.64-bit
+winget install -e --id GitHub.GitHubDesktop
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id VideoLAN.VLC
+
+
+Write-Host "Software voor System Engineering Lab" -ForegroundColor Yellow
+
+winget install -e --id WinSCP.WinSCP
+winget install -e --id Oracle.MySQLWorkbench
+
+winget install -e --id Oracle.VirtualBox --version 7.2.2
+
+winget pin add --id Oracle.VirtualBox
+```
+#### Output:
+```
+PS C:\Windows\system32> Write-Host "Installatie algemene applicaties" -ForegroundColor Cyan
+
+winget install -e --id Git.Git
+winget install -e --id Mozilla.Firefox
+winget install -e --id Adobe.Acrobat.Reader.64-bit
+winget install -e --id GitHub.GitHubDesktop
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id VideoLAN.VLC
+
+
+Write-Host "Software voor System Engineering Lab" -ForegroundColor Yellow
+
+winget install -e --id WinSCP.WinSCP
+winget install -e --id Oracle.MySQLWorkbench
+
+winget install -e --id Oracle.VirtualBox --version 7.2.2
+
+winget pin add --id Oracle.VirtualBox
+
+Installatie algemene applicaties
+
+The `msstore` source requires that you view the following agreements before using.
+Terms of Transaction: https://aka.ms/microsoft-store-terms-of-transaction
+The source requires the current machine's 2-letter geographic region to be sent to the backend service to function properly (ex. "US").
+
+Do you agree to all the source agreements terms?
+```
+
+## Voorbereiding demo
+### Uitvoering DEMO:
+  1. PowerShell ISE wordt geopend als administrator.
+  2. We bypassen de execution policy met ```Set-ExecutionPolicy Bypass -Scope Process```, Hierdoor kunnen we scripts executeren. Dit geven we in in de CLI.
+  3. We openen ons installatie script, en tonen aan hoe dit werkt. 
+  ```
+  Write-Host "Installatie algemene applicaties" -ForegroundColor Cyan
+
+winget install -e --id Git.Git
+winget install -e --id Mozilla.Firefox
+winget install -e --id Adobe.Acrobat.Reader.64-bit
+winget install -e --id GitHub.GitHubDesktop
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id VideoLAN.VLC
+
+
+Write-Host "Software voor System Engineering Lab" -ForegroundColor Yellow
+
+winget install -e --id WinSCP.WinSCP
+winget install -e --id Oracle.MySQLWorkbench
+
+winget install -e --id Oracle.VirtualBox --version 7.2.2
+
+winget pin add --id Oracle.VirtualBox
+```
+> Note: Pin zorgt dat deze applicatie niet automatisch mag geüpdate worden.
+  
 
 ## Reflecties
 
-Maak werk van een degelijke reflectie over de opdracht.
+#### Algemeen:
+Uit onderstaande individuele reflecties blijkt dat de opdracht vooral moeilijk te begrijpen viel en er onvoldoende goed gepland was.
 
-Wat was moeilijk? Wat was eenvoudig? Wat hebben jullie geleerd van de opdracht? Wat zouden jullie anders doen als jullie het opnieuw moesten doen?
+#### Thian:
+Het was moeilijk de opdracht helemaal te begrijpen, qua overzichtelijkheid van de opdracht zelf. Problemen 1 en 2 zijn niet opgelost geraakt, omdat er geen error message      getoond wordt, waardoor het zoeken naar een mogelijkse oplossing zeer moeizaam doet verlopen. Er werd aan het einde van deze week geen oplossing gevonden.
 
-Als jullie nog andere opmerkingen hebben over de opdracht hebben, voel je vrij om ze te delen.
+Wat eerder eenvoudig was, was het schrijven van het verslag met MarkDown. Eerst waren daarbij problemen met de MarkDown text juist in GitHub geformateerd te krijgen, maar a.d.h.v. Visual Studio Code is dit toch goedgekomen.
+
+#### Lorenzo:
+Het moeilijkste aan deze opdracht was begrijpen wat er precies moest gebeuren en uitzoeken hoe alles werkte. Vooral Winget was moeilijk omdat ik daar nog niet veel ervaring mee had. Ik merkte ook dat ik de uitleg op GitHub beter had moeten lezen.
+
+Een werkpunt voor mij is dus om eerst de uitleg goed te lezen voordat ik begin. Ook wil ik beter plannen zodat ik geen tijdsproblemen heb en rustiger kan werken.
+
+Het makkelijkste deel was het verslag maken in Markdown. Dat ging vlot omdat dat duidelijk was voor mij.
+
+#### Neil:
+/
+#### Tibo:
+/
+#### Nathan:
+/
 
 ## Bronnen
 
-Maak een lijst van alle bronnen die jullie hebben gebruikt tijdens het uitvoeren van de opdracht: boeken, handleidingen, HOWTO's, blog posts, enz. Citeer geen bronnen zoals ChatGPT of andere AI-tools rechtstreeks. Als je AI hebt gebruikt, laat het je dan leiden naar echte, betrouwbare bronnen in plaats daarvan.
-
-
-### *NIET FINAAL*
+#### Write-host commando leren aanpassen voor mooie onderscheidingen.
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7.5
+#### WinGet installeren voor diegene waarbij dit nog niet geïnstalleerd was.
+https://learn.microsoft.com/en-us/windows/package-manager/winget/install
