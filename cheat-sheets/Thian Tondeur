@@ -11,5 +11,7 @@
         winget upgrade --all
     3. Via de console een package opzoeken
         winget search vscode (bv naar visual studio code zoeken)
-    4. Een geïnstalleerd pakket verwijderen
+    4. installeert een pakket.
+        winget install <appname> 
+    5. Een geïnstalleerd pakket verwijderen
         winget uninstall vscode (bv visual studio code verwijderen)
