@@ -35,8 +35,22 @@ A: -e: ID of Naam moet exact matchen. --id: Installeert exact pakket met specifi
    > Niet elk teamlid heeft nuttige commando's gevonden voor hun cheatsheet.
  - [] Je hebt GitHub correct geconfigureerd op je toestel en je hebt de basiscommando's (via CLI) in je vingers.
  - [x] Er is een correct antwoord gegeven op de vragen die zijn aangeduid met een ❓.
+
+## Problemen en oplossingen
  
+Probleem 1 - Kan GIT niet installeren via WinGet.
+Input:
+PS C:\WINDOWS\system32> winget install git.git
+
+Output:
+
+<img width="462" height="116" alt="image" src="https://github.com/user-attachments/assets/37590ee7-bd0f-4776-9ed5-b60415955d6b" />
+
+
+Einde Output
+Ik kan geen input geven na de laatse regel, Geen "yes", geen "Y", geen Enter. Hierdoor kan ik git niet installeren via WinGet.
+
 ## Reflecties
 
-De opdracht was eerst lastig omdat ik onbekend met Winget was. Doordat ik de instructies van Github niet goed genoeg las was het niet makkelijker om de opdracht te voltooien. Ik zal beter Github lezen voor ik met opdracht start.
+De opdracht was eerst lastig omdat ik onbekend met Winget was. Doordat ik de instructies van Github niet goed genoeg las was het niet makkelijker om de opdracht te voltooien. Ik zal beter Github lezen voor ik met opdracht start. Ik kan geen Git installeren via Winget dus kan
 
