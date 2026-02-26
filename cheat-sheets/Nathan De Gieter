@@ -1,1 +1,55 @@
 #Nathan De Gieter
+
+## WinGet
+
+| Taak | Commando |
+|------|-----------|
+| Software zoeken | `winget search naam` |
+| Software installeren | `winget install -e --id Publisher.App` |
+| Installeren zonder vragen | `winget install -e --id Publisher.App --accept-package-agreements --accept-source-agreements` |
+| Geïnstalleerde software tonen | `winget list` |
+| Updates tonen | `winget upgrade` |
+| Alles updaten | `winget upgrade --all` |
+| Software verwijderen | `winget uninstall naam` |
+| Sources tonen | `winget source list` |
+| Sources resetten | `winget source reset --force` |
+
+---
+
+## PowerShell
+
+| Taak | Commando |
+|------|-----------|
+| Naar map gaan | `cd pad` |
+| Terug naar vorige map | `cd ..` |
+| Bestanden tonen | `dir` |
+| Script uitvoeren | `.\Installatie.ps1` |
+| Scripts tijdelijk toestaan | `Set-ExecutionPolicy Bypass -Scope Process` |
+
+---
+
+## Git / GitHub
+
+| Taak | Commando |
+|------|-----------|
+| Git starten in map | `git init` |
+| Status bekijken | `git status` |
+| Bestand toevoegen | `git add bestand.md` |
+| Alles toevoegen | `git add .` |
+| Commit maken | `git commit -m "bericht"` |
+| Branch main zetten | `git branch -M main` |
+| Repo koppelen | `git remote add origin URL` |
+| Uploaden naar GitHub | `git push -u origin main` |
+
+---
+
+## Markdown
+
+| Taak | Syntax |
+|------|--------|
+| Titel | `# Titel` |
+| Vet | `**tekst**` |
+| Code | `` `code` `` |
+| Codeblok | ```powershell ``` |
+| Checklist | `- [x] klaar` |
+| Screenshot | `![naam](image.png)` |
