@@ -3,7 +3,7 @@
 ## WinGet
 
 | Taak | Commando |
-|------|-----------|
+
 | Software zoeken | `winget search naam` |
 | Software installeren | `winget install -e --id Publisher.App` |
 | Installeren zonder vragen | `winget install -e --id Publisher.App --accept-package-agreements --accept-source-agreements` |
@@ -16,24 +16,22 @@
 
 bron:https://learn.microsoft.com/en-us/windows/package-manager/winget/download
 
----
 
 ## PowerShell
 
 | Taak | Commando |
-|------|-----------|
+
 | Naar map gaan | `cd pad` |
 | Terug naar vorige map | `cd ..` |
 | Bestanden tonen | `dir` |
 | Script uitvoeren | `.\Installatie.ps1` |
 | Scripts tijdelijk toestaan | `Set-ExecutionPolicy Bypass -Scope Process` |
 
----
 
 ## Git / GitHub
 
 | Taak | Commando |
-|------|-----------|
+
 | Git starten in map | `git init` |
 | Status bekijken | `git status` |
 | Bestand toevoegen | `git add bestand.md` |
@@ -48,7 +46,7 @@ bron:https://learn.microsoft.com/en-us/windows/package-manager/winget/download
 ## Markdown
 
 | Taak | Syntax |
-|------|--------|
+
 | Titel | `# Titel` |
 | Vet | `**tekst**` |
 | Code | `` `code` `` |
