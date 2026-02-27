@@ -109,6 +109,7 @@ The source requires the current machine's 2-letter geographic region to be sent 
 
 Do you agree to all the source agreements terms?
 ```
+> Probleem 2 is opgelost, ook door ```winget install -e --id Git.Git --accept-source-agreements --accept-package-agreements``` toetevoegen aan de git install. Het probleem bleek enkel die regel als origine te hebben.
 
 ## Voorbereiding demo
 ### Uitvoering DEMO:
@@ -169,6 +170,7 @@ In het begin vond ik deze opdracht moeilijk omdat ik veel moest opzoeken. Na all
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7.5
 #### WinGet installeren voor diegene waarbij dit nog niet geïnstalleerd was.
 https://learn.microsoft.com/en-us/windows/package-manager/winget/install
+
 
 
 
