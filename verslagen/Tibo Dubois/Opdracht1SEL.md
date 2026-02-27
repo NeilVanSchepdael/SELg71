@@ -33,7 +33,7 @@ A: -e: ID of Naam moet exact matchen. --id: Installeert exact pakket met specifi
  - [x] Er is een verslag gemaakt op basis van het template.
  - [ ] Elk teamlid heeft de eigen cheat sheet aangevuld met nuttige commando's uit deze opdracht.
    > Niet elk teamlid heeft nuttige commando's gevonden voor hun cheatsheet.
- - [] Je hebt GitHub correct geconfigureerd op je toestel en je hebt de basiscommando's (via CLI) in je vingers.
+ - [ ] Je hebt GitHub correct geconfigureerd op je toestel en je hebt de basiscommando's (via CLI) in je vingers.
  - [x] Er is een correct antwoord gegeven op de vragen die zijn aangeduid met een ❓.
 
 ## Problemen en oplossingen
@@ -49,6 +49,12 @@ Output:
 
 Einde Output
 Ik kan geen input geven na de laatse regel, Geen "yes", geen "Y", geen Enter. Hierdoor kan ik git niet installeren via WinGet.
+
+Oplossing 1 - Via andere lijn code probleem opgelost
+
+Via deze lijn heb ik git wel kunnen installeren:
+
+winget install -e --id Git.Git --accept-source-agreements --accept-package-agreements
 
 ## Reflecties
 
