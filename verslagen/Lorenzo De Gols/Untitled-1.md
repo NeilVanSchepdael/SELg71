@@ -1,5 +1,5 @@
 
-# Verslag: SUBJECT
+# Verslag: project 1
 
 > Naam verslaggever: Lorenzo De Gols
 
@@ -76,4 +76,5 @@ Als jullie nog andere opmerkingen hebben over de opdracht hebben, voel je vrij o
 ## Bronnen
 https://learn.microsoft.com/en-us/windows/package-manager/winget/install
 Maak een lijst van alle bronnen die jullie hebben gebruikt tijdens het uitvoeren van de opdracht: boeken, handleidingen, HOWTO's, blog posts, enz. Citeer geen bronnen zoals ChatGPT of andere AI-tools rechtstreeks. Als je AI hebt gebruikt, laat het je dan leiden naar echte, betrouwbare bronnen in plaats daarvan.
+
 
