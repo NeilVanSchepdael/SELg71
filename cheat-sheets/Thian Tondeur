@@ -15,3 +15,5 @@
         winget install <appname> 
     5. Een geïnstalleerd pakket verwijderen
         winget uninstall vscode (bv visual studio code verwijderen)
+    6. 
+        Winget search
