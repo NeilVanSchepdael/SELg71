@@ -31,8 +31,7 @@ A: -e: ID of Naam moet exact matchen. --id: Installeert exact pakket met specifi
  - [ ] Je toont inzicht in de werking van een package manager en kan deze vlot kan gebruiken om basistaken uit te voeren.
    > WinGet functioneert niet, voor meer details zie probleem 1 en 2.
  - [x] Er is een verslag gemaakt op basis van het template.
- - [ ] Elk teamlid heeft de eigen cheat sheet aangevuld met nuttige commando's uit deze opdracht.
-   > Niet elk teamlid heeft nuttige commando's gevonden voor hun cheatsheet.
+ - [x] Elk teamlid heeft de eigen cheat sheet aangevuld met nuttige commando's uit deze opdracht.
  - [x] Je hebt GitHub correct geconfigureerd op je toestel en je hebt de basiscommando's (via CLI) in je vingers.
  - [x] Er is een correct antwoord gegeven op de vragen die zijn aangeduid met een ❓.
 
@@ -168,6 +167,7 @@ In het begin vond ik deze opdracht moeilijk omdat ik veel moest opzoeken. Na all
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7.5
 #### WinGet installeren voor diegene waarbij dit nog niet geïnstalleerd was.
 https://learn.microsoft.com/en-us/windows/package-manager/winget/install
+
 
 
 
