@@ -155,7 +155,8 @@ Een werkpunt voor mij is dus om eerst de uitleg goed te lezen voordat ik begin. 
 Het makkelijkste deel was het verslag maken in Markdown. Dat ging vlot omdat dat duidelijk was voor mij.
 
 #### Neil:
-/
+De opdracht was moeilijk omdat ik winget niet kon gebruiken. Ondanks op Windows 11 te werken en veel verschillende oplossingen te proberen + een leerkracht gemaild te hebben over mogelijke oplossingen is dit nog altijd niet gelukt.
+
 #### Tibo:
 De opdracht was eerst lastig omdat ik onbekend met Winget was. Doordat ik de instructies van Github niet goed genoeg las was het niet makkelijker om de opdracht te voltooien. Ik zal beter Github lezen voor ik met opdracht start.
 #### Nathan:
@@ -167,5 +168,6 @@ In het begin vond ik deze opdracht moeilijk omdat ik veel moest opzoeken. Na all
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7.5
 #### WinGet installeren voor diegene waarbij dit nog niet geïnstalleerd was.
 https://learn.microsoft.com/en-us/windows/package-manager/winget/install
+
 
 
