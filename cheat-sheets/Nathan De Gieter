@@ -14,6 +14,8 @@
 | Sources tonen | `winget source list` |
 | Sources resetten | `winget source reset --force` |
 
+bron:https://learn.microsoft.com/en-us/windows/package-manager/winget/download
+
 ---
 
 ## PowerShell
