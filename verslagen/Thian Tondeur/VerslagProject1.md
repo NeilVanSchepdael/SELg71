@@ -55,13 +55,15 @@ Do you agree to all the source agreements terms?
 Ik kan geen input geven na de laatse regel, Geen "yes", geen "Y", geen Enter.
 Hierdoor kan ik git niet installeren via WinGet.
 
+> Probleem 1 is opgelost, door ```winget install -e --id Git.Git --accept-source-agreements --accept-package-agreements``` toetevoegen aan de git install.
+
 ### Probleem 2 - kan het installatiescript niet uitvoeren.
 
 #### Input:
 ```
 Write-Host "Installatie algemene applicaties" -ForegroundColor Cyan
 
-winget install -e --id Git.Git
+winget install -e --id Git.Git --accept-source-agreements --accept-package-agreements
 winget install -e --id Mozilla.Firefox
 winget install -e --id Adobe.Acrobat.Reader.64-bit
 winget install -e --id GitHub.GitHubDesktop
@@ -82,7 +84,7 @@ winget pin add --id Oracle.VirtualBox
 ```
 PS C:\Windows\system32> Write-Host "Installatie algemene applicaties" -ForegroundColor Cyan
 
-winget install -e --id Git.Git
+winget install -e --id Git.Git --accept-source-agreements --accept-package-agreements
 winget install -e --id Mozilla.Firefox
 winget install -e --id Adobe.Acrobat.Reader.64-bit
 winget install -e --id GitHub.GitHubDesktop
@@ -116,7 +118,7 @@ Do you agree to all the source agreements terms?
   ```
   Write-Host "Installatie algemene applicaties" -ForegroundColor Cyan
 
-winget install -e --id Git.Git
+winget install -e --id Git.Git --accept-source-agreements --accept-package-agreements
 winget install -e --id Mozilla.Firefox
 winget install -e --id Adobe.Acrobat.Reader.64-bit
 winget install -e --id GitHub.GitHubDesktop
@@ -167,6 +169,7 @@ In het begin vond ik deze opdracht moeilijk omdat ik veel moest opzoeken. Na all
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7.5
 #### WinGet installeren voor diegene waarbij dit nog niet geïnstalleerd was.
 https://learn.microsoft.com/en-us/windows/package-manager/winget/install
+
 
 
 
